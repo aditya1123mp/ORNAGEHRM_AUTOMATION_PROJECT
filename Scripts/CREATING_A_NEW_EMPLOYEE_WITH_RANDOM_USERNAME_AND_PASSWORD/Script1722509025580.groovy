@@ -25,3 +25,5 @@ WebUI.callTestCase(findTestCase('logout_testcase'), [:], FailureHandling.STOP_ON
 
 WebUI.callTestCase(findTestCase('test_case_to_verify_data'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('TEST_CASE_TO_UPLOAD_PROFILE_PICTURE'), [:], FailureHandling.STOP_ON_FAILURE)
+
